@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Admission</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+    <div class="admission-form">
+        <h1>Online Admission</h1>
+        <p class="mandatory">*All Fields are Mandatory</p>
+
+        <div class="form-section">
+            <h2>Select Your Course</h2>
+            <select>
+                <option value="">Plan to Join</option>
+                <option value="course1">Course 1</option>
+                <option value="course2">Course 2</option>
+            </select>
+            <select>
+                <option value="">Select Course</option>
+                <option value="courseA">Course A</option>
+                <option value="courseB">Course B</option>
+            </select>
+            <select>
+                <option value="">Join Campus / Online</option>
+                <option value="campus">Campus</option>
+                <option value="online">Online</option>
+            </select>
+        </div>
+
+        <div class="form-section">
+            <h2>Applicant Personal Details</h2>
+            <label>Kind of Applicant:</label>
+            <div class="applicant-type">
+                <label><input type="radio" name="applicant" value="kid"> Kid</label>
+                <label><input type="radio" name="applicant" value="student"> Student</label>
+                <label><input type="radio" name="applicant" value="housewife"> House Wife</label>
+                <label><input type="radio" name="applicant" value="professional"> Professional</label>
+            </div>
+
+            <input type="text" placeholder="Applicant Full Name">
+            <input type="text" placeholder="Father Name">
+            <input type="date" placeholder="dd-mm-yyyy">
+            <input type="number" placeholder="Age">
+
+            <select>
+                <option value="">Gender</option>
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+                <option value="other">Other</option>
+            </select>
+
+            <input type="text" placeholder="Nationality">
+
+            <label>Upload Your Photo:</label>
+            <input type="file">
+        </div>
+
+        <div class="form-section">
+            <h2>Applicant Contact Details</h2>
+            <textarea placeholder="Complete Address"></textarea>
+        </div>
+    </div>
+</body>
+</html>
